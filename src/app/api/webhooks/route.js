@@ -3,11 +3,11 @@ import { headers } from 'next/headers';
 import { createOrUpdateUser, deleteUser } from '@/lib/actions/user';
 
 export async function POST(req) {
-  const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET;
+  const SIGNING_SECRET = process.env.SIGNING_SECRET;
 
-  if (!WEBHOOK_SECRET) {
+  if (!SIGNING_SECRET) {
     throw new Error(
-      'Please add WEBHOOK_SECRET from Clerk Dashboard to .env or .env.local'
+      'Please add SIGNING_SECRET from Clerk Dashboard to .env or .env.local'
     );
   }
 
@@ -29,7 +29,7 @@ export async function POST(req) {
   const body = JSON.stringify(payload);
 
   // Create a new Svix instance secret.
-  const wh = new Webhook(WEBHOOK_SECRET);
+  const wh = new Webhook(SIGNING_SECRET);
 
   let evt;
 
