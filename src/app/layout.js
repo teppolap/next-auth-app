@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Next auth',
-  description: 'Next auth with Clerk and mMngoDB',
+  description: 'Next auth with Clerk and Mongodb',
 };
 
 export default function RootLayout({ children }) {
