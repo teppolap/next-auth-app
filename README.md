@@ -1,4 +1,5 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Built an App which can be used as a starting point for building full-stack web applications with authentication using Next.js, Clerk, and Mongoose.
+Created front-end of the application with Next.js and TailwindCSS and uses Clerk for user authentication. Backend is powered by MongoDB, Mongoose and Node.js
 
 ## Check out the App
 [Next auth app](https://next-auth-app-pearl-eight.vercel.app/)
