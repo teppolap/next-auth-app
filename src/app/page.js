@@ -10,7 +10,7 @@ export default function Home() {
         <img
           src='https://kivuto.com/wp-content/uploads/2021/06/User_Authentication_Best_Practices_Image.jpg'
           alt='Authentication Illustration'
-          className='rounded-lg h-96 w-full object-cover mb-6'
+          className='rounded-lg w-full h-auto object-cover mb-12'
         />
         <div>
           <p className='text-gray-700 mb-4'>

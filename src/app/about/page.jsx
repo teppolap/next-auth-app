@@ -23,7 +23,7 @@ export default function About() {
           <ul className='text-gray-700 mb-4 space-y-2'>
             <li>
               <a
-                href='https://github.com/sahandghavidel/next-auth-app'
+                href='https://github.com/teppolap/next-auth-app'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='flex items-center text-blue-500 hover:underline'
@@ -57,11 +57,11 @@ export default function About() {
             </li>
           </ul>
         </div>
-        <div className='flex justify-center items-center'>
+        <div className='flex justify-center items-top'>
           <img
             src='https://www.loginradius.com/blog/static/6d170d83a7074847494831a6df861d3c/d3746/cover-auth.jpg'
             alt='Description of image'
-            className='rounded-lg h-96 w-full object-cover'
+            className='rounded-lg w-full h-auto object-cover'
           />
         </div>
       </div>
